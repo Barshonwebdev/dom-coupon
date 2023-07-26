@@ -11,7 +11,7 @@ document.getElementById("apply-button").addEventListener("click",function(){
         const discountedPriceElement =
           document.getElementById("discounted-price");
         discountedPriceElement.innerText = discountedPriceFixed;
-        couponField.value="";
+        couponField.value=""; 
     }
     else {
         alert("wrong coupon");
