@@ -1,7 +1,7 @@
 document.getElementById("apply-button").addEventListener("click",function(){
     const couponField=document.getElementById("coupon-field");
     const couponString=couponField.value;
-    if (couponString=="dis30"){
+    if (couponString=="dis35"){
         const getOriginalPriceElement =
           document.getElementById("original-price");
         const getOriginalPriceString = getOriginalPriceElement.innerText;
