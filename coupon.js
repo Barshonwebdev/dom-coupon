@@ -6,7 +6,7 @@ document.getElementById("apply-button").addEventListener("click",function(){
           document.getElementById("original-price");
         const getOriginalPriceString = getOriginalPriceElement.innerText;
         const originalPriceValue = parseFloat(getOriginalPriceString);
-        const discountedPrice = originalPriceValue * (35 / 100);
+        const discountedPrice = originalPriceValue-(originalPriceValue * (35 / 100));
         const discountedPriceFixed = discountedPrice.toFixed(2);
         const discountedPriceElement =
           document.getElementById("discounted-price");
